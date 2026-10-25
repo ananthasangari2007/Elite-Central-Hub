@@ -941,6 +941,20 @@
         .portal-card[data-portal="ps"]:hover {
             border-color: rgba(13, 148, 136, 0.35);
         }
+        .portal-card[data-portal="gate"] .portal-icon-box {
+            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+            color: #d97706;
+            border: 1px solid #fde68a;
+        }
+        .portal-card[data-portal="gate"]:hover {
+            border-color: rgba(217, 119, 6, 0.35);
+        }
+        .portal-card[data-portal="gate"]:hover .action-button-sim {
+            background-color: #d97706;
+            border-color: #d97706;
+            box-shadow: 0 4px 12px rgba(217, 119, 6, 0.25);
+        }
+
 
         .card-badges-stack {
             display: flex;
@@ -1594,7 +1608,7 @@
                                 </svg>
                             </span>
                             <span>Dashboard</span>
-                            <span class="nav-link-badge">5</span>
+                            <span class="nav-link-badge">6</span>
                         </a>
                     </li>
                     <li>
@@ -1618,7 +1632,7 @@
                                 </svg>
                             </span>
                             <span>Academic Activities</span>
-                            <span class="nav-link-badge">3</span>
+                            <span class="nav-link-badge">4</span>
                         </a>
                     </li>
                     <li>
@@ -1789,7 +1803,7 @@
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
                             </span>
-                            <span>5 Active Portals</span>
+                            <span>6 Active Portals</span>
                         </div>
 
                         <div class="hero-badge-item">
@@ -1823,7 +1837,7 @@
                     </div>
 
                     <div class="portal-count-chip" id="portalCounterText">
-                        Showing 5 of 5 systems
+                        Showing 6 of 6 systems
                     </div>
                 </div>
 
@@ -1831,7 +1845,7 @@
                 <div class="filter-tabs-row" role="tablist" aria-label="Filter portals by category">
                     <button type="button" class="filter-tab-btn active" data-filter="all" role="tab" aria-selected="true">
                         <span>All Portals</span>
-                        <span class="tab-counter">5</span>
+                        <span class="tab-counter">6</span>
                     </button>
                     <button type="button" class="filter-tab-btn" data-filter="student-platforms" role="tab" aria-selected="false">
                         <span>Student Platforms</span>
@@ -1839,7 +1853,7 @@
                     </button>
                     <button type="button" class="filter-tab-btn" data-filter="academic-activities" role="tab" aria-selected="false">
                         <span>Academic Activities</span>
-                        <span class="tab-counter">3</span>
+                        <span class="tab-counter">4</span>
                     </button>
                     <button type="button" class="filter-tab-btn" data-filter="hackathons" role="tab" aria-selected="false">
                         <span>Hackathons & Proofs</span>
@@ -2172,6 +2186,71 @@
                     </article>
 
 
+                                        <!-- ==========================================
+                         PORTAL 6: GATE PREPARATION (EXAMSIDE)
+                         ========================================== -->
+                    <article 
+                        class="portal-card" 
+                        data-portal="gate"
+                        data-categories="academic-activities"
+                        data-name="gate preparation examside questions pyqs previous years engineering practice test solutions learning"
+                    >
+                        <a 
+                            href="https://questions.examside.com/" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            class="portal-card-overlay-link"
+                            aria-label="Open GATE Preparation: ExamSIDE Previous Years Questions and Practice in new tab"
+                        ></a>
+
+                        <div>
+                            <div class="card-header-bar">
+                                <div class="portal-icon-box" aria-hidden="true">
+                                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M2 10l10-5 10 5-10 5-10-5z"></path>
+                                        <path d="M6 12.5v5c0 2 3 3.5 6 3.5s6-1.5 6-3.5v-5"></path>
+                                        <line x1="22" y1="10" x2="22" y2="16"></line>
+                                    </svg>
+                                </div>
+
+                                <div class="card-badges-stack">
+                                    <span class="category-pill">Learning & Prep</span>
+                                    <span class="availability-badge">
+                                        <span class="availability-dot"></span>
+                                        Available
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="card-content-block">
+                                <h3 class="portal-card-name">GATE Preparation</h3>
+                                <span class="portal-card-subtitle">ExamSIDE PYQs & Practice</span>
+                                <p class="portal-card-desc">
+                                    Access chapter-wise GATE previous years questions, detailed solutions, and practice sets across engineering disciplines.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-footer-action">
+                            <span class="card-meta-note">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                </svg>
+                                Learning Resource
+                            </span>
+
+                            <div class="action-button-sim" aria-hidden="true">
+                                <span>Open GATE Prep</span>
+                                <svg class="action-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </article>
+
+
                     <!-- Empty State for Search Filter -->
                     <div class="empty-search-state" id="emptySearchState" role="status">
                         <div class="empty-icon-wrap" aria-hidden="true">
@@ -2324,6 +2403,31 @@
                         <div class="quick-link-texts">
                             <span class="quick-link-title">PS Daily Sheet</span>
                             <span class="quick-link-desc">Daily problem solving progress</span>
+                        </div>
+                        <svg class="quick-link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="7 7 17 7 17 17"></polyline>
+                        </svg>
+                    </a>
+
+                                        <!-- GATE Preparation Quick Jump -->
+                    <a 
+                        href="https://questions.examside.com/" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        class="quick-link-item"
+                        title="Open ExamSIDE GATE Preparation Questions"
+                    >
+                        <div class="quick-link-icon-box" aria-hidden="true">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M2 10l10-5 10 5-10 5-10-5z"></path>
+                                <path d="M6 12.5v5c0 2 3 3.5 6 3.5s6-1.5 6-3.5v-5"></path>
+                                <line x1="22" y1="10" x2="22" y2="16"></line>
+                            </svg>
+                        </div>
+                        <div class="quick-link-texts">
+                            <span class="quick-link-title">GATE Preparation</span>
+                            <span class="quick-link-desc">ExamSIDE PYQs & solutions</span>
                         </div>
                         <svg class="quick-link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                             <line x1="7" y1="17" x2="17" y2="7"></line>

@@ -27,6 +27,7 @@ This portal acts as the centralized gateway for academic tracking, attendance re
 | **Task Planning Portal** | Academic Activities | `https://script.google.com/a/macros/francisxavier.ac.in/s/AKfycbynjp3vACDQaOiVPJGx6yfO7-MW1BBsSDO0bX4dYwKgeK4qVGXWuY3Louw43JLwnRS1/exec` | Sprint roadmaps, task schedules, and milestone planning. |
 | **Elite Task Portal** | Student Platforms | `https://elite-dashboard-as.onrender.com/` | Assignment submission, deliverable verification, and activity tracking. |
 | **PS Daily Updation Portal** | Academic Activities | `https://docs.google.com/spreadsheets/d/1FuXF9q0X1pS8Bw-D8gyZ0IyEaUwrQ4yD4iBPWIWlP1c/edit?usp=sharing` | Daily problem-solving progress tracking sheet. |
+| **GATE Preparation** | Academic Activities / Learning | `https://questions.examside.com/` | ExamSIDE chapter-wise GATE previous year questions, solutions, and practice sets. |
 | **FXEC Campus Portal** | Institutional Resource | `https://francisxavier.ac.in/` | Official Francis Xavier Engineering College autonomous portal. |
 
 ---
